@@ -19,6 +19,3 @@ issue_dict = {
 }
 new_issue = jira.create_issue(fields=issue_dict)
 print('Issue created successfully')
-
-#issue = jira.issue('ACM-1')
-#nombre = issue.fields.summary
